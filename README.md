@@ -1,2 +1,4 @@
-# bingle-bongle
-public repository for giving access to files easily
+# bingwe-bongwe
+pubwic wepositowy f-fow giving access t-to fiwes easiwy
+
+:3
