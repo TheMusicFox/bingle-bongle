@@ -1,7 +1,32 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("Task4a_RBSX_data.csv")
+fileLoop = True
+while fileLoop:
+    try:
+        df = pd.read_csv("Task4a_RBSX_data.csv")
+
+    except FileNotFoundError:
+        print("File not found\nPlease download the file -> Task4a_RBSX_data.csv")
+
+    else:
+        fileLoop = False
+
+def get_int_in_range(prompt, low, high):
+    while True:
+        raw = input(prompt)
+        try:
+            value = (int(raw))
+        
+        except ValueError:
+            print("Please enter whole number")
+            continue
+        
+            if value < low or value > high:
+                print(f"Please enter a number between {low} and {high}")
+                continue
+        
+        return value
 
 def menu():
     flag = True
@@ -19,21 +44,9 @@ def menu():
         print("9. Exit the program")
         print("------------------------------------------------------\n")
         
-        menu_choice = input("Please enter the number of your choice (1-9): ")
-
-        try:
-            int(menu_choice)
-
-        except ValueError:
-            print("Sorry, you did not enter a valid choice")
-            flag = True
-
-        else:
-            if int(menu_choice) < 1 or int(menu_choice) > 9:
-                print("Sorry, you did not enter a valid choice")
-                flag = True
-            else:
-                return menu_choice
+        menu_choice = get_int_in_range("Please enter the number of your choice (1-9): ", 1, 9)
+        flag = False
+    return menu_choice
 
 
 def get_currency():
@@ -107,13 +120,11 @@ def show_gbp_trends():
     else:
         direction = "stayed the same"
 
-    print("\n--- " + col + " ---")
-    print("Highest rate: " + str(highest))
-    print("Lowest rate: " + str(lowest))
-    print("Average rate: " + str(average))
-    print("Overall the rate has " + direction +
-    " from " + str(round(start_rate, 4)) +
-    " to " + str(round(end_rate, 4)))
+    print(f"\n--- {col} ---")
+    print(f"Highest rate: {highest}")
+    print(f"Lowest rate: {lowest}")
+    print(f"Average rate: {average}")
+    print(f"Overall the rate has {direction} from {round(start_rate, 4)} to {round(end_rate, 4)}")
     print("------------------------------------------------------\n")
 
 
@@ -125,25 +136,9 @@ def show_performance():
     print("3. GBP - JPY")
     print("------------------------------------------------------\n")
 
-    flag = True
-    while flag:
-        choice = input("Please enter your choice (1-3): ")
-        try:
-            int(choice)
-        
-        except ValueError:
-            print("Sorry, you did not enter a valid choice")
-            flag = True
-        
-        else:
-            if int(choice) < 1 or int(choice) > 3:
-                print("Sorry, you did not enter a valid choice")
-                flag = True
-            
-            else:
-                flag = False
-                pair_options = {'1': 'GBP - EUR', '2': 'GBP - AUD', '3': 'GBP - JPY'}
-                pair = pair_options.get(choice)
+    choice = get_int_in_range("Please enter your choice (1-3): ", 1, 3)
+    pair_options = {1: 'GBP - EUR', 2: 'GBP - AUD', 3: 'GBP - JPY'}
+    pair = pair_options.get(choice)
 
     start_rate = df[pair].iloc[0]
     end_rate = df[pair].iloc[-1]
@@ -151,11 +146,11 @@ def show_performance():
     percent_change = round((change / start_rate) * 100, 2)
 
     print("")
-    print("Performance for " + pair + ":")
-    print("Start rate: " + str(round(start_rate, 4)))
-    print("End rate: " + str(round(end_rate, 4)))
-    print("Change: " + str(round(change, 4)))
-    print("Percentage change: " + str(percent_change) + "%")
+    print(f"Performance for {pair}:")
+    print(f"Start rate: {round(start_rate, 4)}")
+    print(f"End rate: {round(end_rate, 4)}")
+    print(f"Change: {round(change, 4)}")
+    print(f"Percentage change: {percent_change}%")
 
     if percent_change > 0:
         print("This currency pair has gone UP over the period.")
@@ -174,26 +169,26 @@ def show_performance():
     plt.xticks(df['Date'][::7], rotation=45)
     plt.tight_layout()
     plt.grid(True)
-    plt.show()
+    plt.savefig("grapho")
 
 
 running = True
 while running:
     menu_choice = menu()
 
-    if menu_choice in ['1', '2', '3', '4', '5', '6']:
+    if menu_choice in [1, 2, 3, 4, 5, 6]:
         currency = get_currency()
         conversion_rate = get_conversion_rate()
         conversion_amount = float(get_amount_to_convert())
         perform_conversion()
 
-    elif menu_choice == '7':
+    elif menu_choice == 7:
         show_gbp_trends()
 
-    elif menu_choice == '8':
+    elif menu_choice == 8:
         show_performance()
 
-    elif menu_choice == '9':
+    elif menu_choice == 9:
         print("\n------------------------------------------------------")
         print("Thank you for using the RBSX Currency Tool")
         print("------------------------------------------------------\n")
