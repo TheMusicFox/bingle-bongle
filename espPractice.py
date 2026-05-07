@@ -1,13 +1,17 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+def load_data(path="Task4a_RBSX_data.csv")
 fileLoop = True
 while fileLoop:
     try:
-        df = pd.read_csv("Task4a_RBSX_data.csv")
+        df = pd.read_csv(path)
 
     except FileNotFoundError:
-        print("File not found\nPlease download the file -> Task4a_RBSX_data.csv")
+        print(f"File not found\nPlease download the file -> {path}")
+    
+    except pd.errors.EmptyDataError:
+        print(f"error\nthe data {path} is empty")
 
     else:
         fileLoop = False
