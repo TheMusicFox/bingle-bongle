@@ -1,0 +1,31 @@
+event_name,event_date,confirmation,payment,resources
+Community Fair,10/06/2026,yes,yes,Chairs
+Book Club,12/06/2026,yes,no,Room B
+Art Workshop,15/06/2026,no,yes,Projector
+Health Seminar,18/06/2026,yes,yes,Audio System
+Volunteer Meetup,20/06/2026,no,no,Refreshments
+Music Night,22/06/2026,yes,no,Stage
+Coding Session,25/06/2026,yes,yes,Computers
+Yoga Class,28/06/2026,no,yes,Mats
+Gardening Talk,01/07/2026,yes,no,Outdoor Space
+Family Picnic,04/07/2026,yes,yes,Catering
+Skills Training,07/07/2026,no,yes,Whiteboard
+Senior Lunch,10/07/2026,yes,no,Tables
+Language Exchange,13/07/2026,yes,yes,Notepads
+Career Fair,16/07/2026,no,no,Booths
+Dance Practice,19/07/2026,yes,yes,Sound System
+Community Cleanup,22/07/2026,no,yes,Gloves
+Fundraiser,25/07/2026,yes,no,Banners
+Parent Workshop,28/07/2026,no,no,Handouts
+Tech Meetup,31/07/2026,yes,yes,WiFi
+Safety Training,03/08/2026,yes,no,First Aid Kit
+Poetry Reading,06/08/2026,no,yes,Microphone
+Film Screening,09/08/2026,yes,yes,Projector
+Networking Event,12/08/2026,no,no,Name Tags
+Cooking Class,15/08/2026,yes,yes,Kitchen
+Mental Health Talk,18/08/2026,yes,no,Brochures
+Sports Day,21/08/2026,no,yes,Equipment
+Study Group,24/08/2026,yes,yes,Tables
+Craft Fair,27/08/2026,no,no,Display Boards
+Community Choir,30/08/2026,yes,yes,Music Sheets
+Job Workshop,02/09/2026,no,yes,Computers
