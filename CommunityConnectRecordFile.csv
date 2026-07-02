@@ -1,0 +1,86 @@
+record_id,member_name,department,contact_number,key_systems_used,attendance
+1001,Gigi Garcia,Administration & Customer Services,814789066,Membership Database Booking System; Email System; Document Management System,92
+1002,Newt Johnson,Administration & Customer Services,1273396294,Membership Database Booking System; Email System; Document Management System,90
+1003,Ruby Brown,Administration & Customer Services,1953637280,Membership Database Booking System; Email System; Document Management System,89
+1004,Logan Williams,Administration & Customer Services,8454452730,Membership Database Booking System; Email System; Document Management System,50
+1005,Dean Lopez,Administration & Customer Services,83987375,Membership Database Booking System; Email System; Document Management System,70
+1006,Cece Jones,Administration & Customer Services,5241161902,Membership Database Booking System; Email System; Document Management System,100
+1007,Mia Rodrigues,Administration & Customer Services,5241161902,Membership Database Booking System; Email System; Document Management System,99
+1008,Abby Anderson,Administration & Customer Services,8817535850,Membership Database Booking System; Email System; Document Management System,97
+1009,Beau Moore,Administration & Customer Services,2869024655,Membership Database Booking System; Email System; Document Management System,95
+1010,Charlie Brown,Administration & Customer Services,117573581,Membership Database Booking System; Email System; Document Management System,85
+1011,Petal Black,Administration & Customer Services,117573581,Membership Database Booking System; Email System; Document Management System,80
+1012,Rose Thompson,Administration & Customer Services,117573581,Membership Database Booking System; Email System; Document Management System,90
+1013,Daisy Renton,Administration & Customer Services,7541519650,Membership Database Booking System; Email System; Document Management System,93
+1014,Willow Diago,Administration & Customer Services,7693648719,Membership Database Booking System; Email System; Document Management System,88
+1015,Jacks Lee,Administration & Customer Services,2243207754,Membership Database Booking System; Email System; Document Management System,92
+1016,Noah Gonzalez,Administration & Customer Services,997703799,Membership Database Booking System; Email System; Document Management System,100
+1017,Thomas Jackson,Administration & Customer Services,6621079832,Membership Database Booking System; Email System; Document Management System,100
+1018,George King,Administration & Customer Services,6230715050,Membership Database Booking System; Email System; Document Management System,69
+1019,Evangeline Young,Administration & Customer Services,3686536359,Membership Database Booking System; Email System; Document Management System,95
+1020,Lily Allen,Administration & Customer Services,1248555061,Membership Database Booking System; Email System; Document Management System,97
+1021,Lewis Armstrong,Events & Activities,1170250428,Event Management System; Resource Booking System; Calendar System,90
+1022,Max Verstappin,Events & Activities,2843321861,Event Management System; Resource Booking System; Calendar System,89
+1023,Aria Walker,Events & Activities,2843321861,Event Management System; Resource Booking System; Calendar System,88
+1024,Skye Walker,Events & Activities,4924436019,Event Management System; Resource Booking System; Calendar System,97
+1025,Freya Scott,Events & Activities,2633462096,Event Management System; Resource Booking System; Calendar System,99
+1026,Pip Hall,Events & Activities,322685684,Event Management System; Resource Booking System; Calendar System,80
+1027,Lucas Carter,Events & Activities,322685684,Event Management System; Resource Booking System; Calendar System,70
+1028,Frankie Evans,Events & Activities,322685684,Event Management System; Resource Booking System; Calendar System,75
+1029,Luke Skywalker,Events & Activities,5394304693,Event Management System; Resource Booking System; Calendar System,79
+1030,Alice Inwonderland,Events & Activities,9885823791,Event Management System; Resource Booking System; Calendar System,100
+1031,Alicia Torres,Events & Activities,7611892109,Event Management System; Resource Booking System; Calendar System,92
+1032,Allie Campbell,Events & Activities,1827835956,Event Management System; Resource Booking System; Calendar System,80
+1033,Oak Tree,Events & Activities,1827835956,Event Management System; Resource Booking System; Calendar System,99
+1034,Sarah Turner,Events & Activities,1827835956,Event Management System; Resource Booking System; Calendar System,70
+1035,Izzy Nelson,Events & Activities,6866250155,Event Management System; Resource Booking System; Calendar System,80
+1036,Caleb Oaks,Events & Activities,6866250155,Event Management System; Resource Booking System; Calendar System,93
+1037,Rudy Parker,Events & Activities,8893668755,Event Management System; Resource Booking System; Calendar System,100
+1038,Gerda Orlova,Events & Activities,182332727,Event Management System; Resource Booking System; Calendar System,94
+1039,Rick Sanchez,Community Programs,6209874404,Participant Tracking System; Case Management System; Reporting Tools,99
+1040,Jake Phillips,Community Programs,5844529178,Participant Tracking System; Case Management System; Reporting Tools,96
+1041,Malcom Morales,Community Programs,6620502160,Participant Tracking System; Case Management System; Reporting Tools,92
+1042,Jack Cruz,Community Programs,2012378493,Participant Tracking System; Case Management System; Reporting Tools,91
+1043,Francie Stewart,Community Programs,151968279,Participant Tracking System; Case Management System; Reporting Tools,94
+1044,Pip Namedslickback,Community Programs,9159355767,Participant Tracking System; Case Management System; Reporting Tools,100
+1045,Max Morgan,Community Programs,6985342278,Participant Tracking System; Case Management System; Reporting Tools,81
+1046,Will Green,Community Programs,8769028590,Participant Tracking System; Case Management System; Reporting Tools,87
+1047,George Collins,Community Programs,4535957667,Participant Tracking System; Case Management System; Reporting Tools,99
+1048,Leo Read,Community Programs,1973257529,Participant Tracking System; Case Management System; Reporting Tools,85
+1049,Jill Rogers,Community Programs,611041723,Participant Tracking System; Case Management System; Reporting Tools,84
+1050,Izzy Miller,Community Programs,9597005333,Participant Tracking System; Case Management System; Reporting Tools,93
+1051,Terrance Key,Community Programs,8247810120,Participant Tracking System; Case Management System; Reporting Tools,95
+1052,Charlie Cooper,Community Programs,8769113615,Participant Tracking System; Case Management System; Reporting Tools,85
+1053,Micheal Jordan,Community Programs,8321825759,Participant Tracking System; Case Management System; Reporting Tools,99
+1054,Stewart Griffin,Volunteer Management,741127977,Volunteer Management System; Training Records System; Scheduling System,71
+1055,Dick Wittinton,Volunteer Management,3432735869,Volunteer Management System; Training Records System; Scheduling System,74
+1056,Morty Smith,Volunteer Management,2381004575,Volunteer Management System; Training Records System; Scheduling System,78
+1057,Richard Murphy,Volunteer Management,8776240587,Volunteer Management System; Training Records System; Scheduling System,80
+1058,Mika Kim,Volunteer Management,7928841973,Volunteer Management System; Training Records System; Scheduling System,91
+1059,Sophia Cox,Volunteer Management,9838976613,Volunteer Management System; Training Records System; Scheduling System,93
+1060,Summer Smith,Volunteer Management,8277557616,Volunteer Management System; Training Records System; Scheduling System,96
+1061,Sunday Wood,Volunteer Management,5189058261,Volunteer Management System; Training Records System; Scheduling System,100
+1062,Monday Grey,Volunteer Management,530880659,Volunteer Management System; Training Records System; Scheduling System,75
+1063,Bill Boyle,Volunteer Management,8407300049,Volunteer Management System; Training Records System; Scheduling System,98
+1064,Terry Crews,Finance & Reporting,5101204440,Accounting System; Payroll System; Reporting Dashboard,91
+1065,Saturday Bright,Finance & Reporting,892334215,Accounting System; Payroll System; Reporting Dashboard,84
+1066,Roza Diaz,Finance & Reporting,6296368419,Accounting System; Payroll System; Reporting Dashboard,99
+1067,Tuesday Richardson,Finance & Reporting,9062468751,Accounting System; Payroll System; Reporting Dashboard,89
+1068,Norman Scully,Finance & Reporting,9056561189,Accounting System; Payroll System; Reporting Dashboard,1
+1069,Mica Gomes,Finance & Reporting,2355037000,Accounting System; Payroll System; Reporting Dashboard,69
+1070,Raymond Holt,Finance & Reporting,4769828002,Accounting System; Payroll System; Reporting Dashboard,99
+1071,Dylan Bell,Finance & Reporting,2021276017,Accounting System; Payroll System; Reporting Dashboard,94
+1072,Jacob Peralta,IT & Digital Services,645841752,User Management System; Helpdesk System; Asset Register,90
+1073,Amy Santiago,IT & Digital Services,8568442749,User Management System; Helpdesk System; Asset Register,98
+1074,Stanley Malfoy,IT & Digital Services,5916079352,User Management System; Helpdesk System; Asset Register,73
+1075,Richie Fisher,IT & Digital Services,286313505,User Management System; Helpdesk System; Asset Register,84
+1076,Connor Williams,IT & Digital Services,7297939329,User Management System; Helpdesk System; Asset Register,96
+1077,Terence Harris,IT & Digital Services,4523056138,User Management System; Helpdesk System; Asset Register,99
+1078,Alex Dalmontie,Senior Management,6317293405,Business Intelligence Dashboard; KPI Reporting System,89
+1079,Bob Anderson,Senior Management,7797123766,Business Intelligence Dashboard; KPI Reporting System,93
+1080,Peter Goodenough,Senior Management,9618253406,Business Intelligence Dashboard; KPI Reporting System,100
+1081,Frankie Harrison,Senior Management,3794106212,Business Intelligence Dashboard; KPI Reporting System,73
+1082,Thursday Tran,Senior Management,6788997229,Business Intelligence Dashboard; KPI Reporting System,99
+1083,Friday Wells,Senior Management,1437035522,Business Intelligence Dashboard; KPI Reporting System,80
+1084,Joseph Crawford,Senior Management,5171925464,Business Intelligence Dashboard; KPI Reporting System,87
+1085,Jaquavious Cunningham,Senior Management,1949291692,Business Intelligence Dashboard; KPI Reporting System,90
